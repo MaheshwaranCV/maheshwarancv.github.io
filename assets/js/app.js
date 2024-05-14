@@ -1,16 +1,17 @@
 
 "use strict";
 // Sweet Alert CDN through JS
-let script = document.createElement("script");
-script.type = 'text/javascript';
-script.src="https://unpkg.com/sweetalert/dist/sweetalert.min.js";
-document.body.appendChild(script);
+
+// let script = document.createElement("script");
+// script.type = 'text/javascript';
+// script.src="https://unpkg.com/sweetalert/dist/sweetalert.min.js";
+// document.body.appendChild(script);
 
 // Header
 
 let header = $(`
-<nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
-<a class="navbar-brand" href="index.html">  Mahesh</a>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+<a class="navbar-brand" href="index.html">  Mahima</a>
 <div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
   <div id="js-hamburger" class="hamburger">
