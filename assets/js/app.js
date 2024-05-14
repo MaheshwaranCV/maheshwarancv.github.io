@@ -2,10 +2,10 @@
 "use strict";
 // Sweet Alert CDN through JS
 
-let script = document.createElement("script");
-script.type = 'text/javascript';
-script.src="https://unpkg.com/sweetalert/dist/sweetalert.min.js";
-document.body.appendChild(script);
+// let script = document.createElement("script");
+// script.type = 'text/javascript';
+// script.src="https://unpkg.com/sweetalert/dist/sweetalert.min.js";
+// document.body.appendChild(script);
 
 // Header
 
