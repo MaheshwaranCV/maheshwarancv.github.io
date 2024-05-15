@@ -1,6 +1,11 @@
-@font-face {
+/* @font-face {
   font-family: "Agustina";
   src: url(../fonts/Agustina.woff);
+} */
+
+@font-face {
+  font-family: "Autography";
+  src: url(../fonts/Autography-DOLnW.otf);
 }
 
 
@@ -229,7 +234,7 @@ html {
 }
 
 .navbar-brand {
-  font-family: Agustina;
+  font-family: Autography;
   font-size: 30px;
   font-weight: bold;
 }
