@@ -4,20 +4,20 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
-    title: "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
+    title: "Effect of Dimples on the Blades of a Vertical Axis Wind Turbine",
     authors:
-      "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu",
+      "Dinesh Kumar S K, Maheshwaran C V, Hari Kiran B, Adithiyan S, Lokesh Kumar and Balaji N",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
+      "3rd International Conference on Innovations in Thermal, Manufacturing, Structural and Environmental Engineering - ICITMSEE2022",
+    researchYr: 2023,
     citebox: "popup1",
-    image: "assets/images/research-page/inteferenceNetwork.png",
+    image: "assets/images/research-page/DimpledBlade.png",
     citation: {
       vancouver:
         "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
     },
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 1",
+      "The effect of multiple dimples on an aerofoil are manifold. The aerofoil under study was a NACA 0015 aerofoil designed as the blade of a vertical axis wind turbine. In theory, the dimples, as seen in golf balls help smoothen the flow over the surface of the blades and in turn makes the flow adhere to the surface of the blade for longer. This leads to decrease in the drag forces and turbulence over the blade. This leads to there being less resistance from air to the rotation of the blades and hence, theoretically, the blade should be able to spin at a faster pace, hence generating more power at a lower wind speed. In order to test this theory, the dimpled blade was tested against a smooth blade under the same conditions and the results were achieved both computationally and practically. In both the cases, the dimpled blade was shown to have more benefits and produce more power. Under the testing conditions of wind speed 15m/s, it was noted that the blade velocity increased to 7m/s for the dimpled blade as compared to the blade velocity of 6m/s of the smooth blade. The theory that the dimples assists the blade to move faster was substantiated with practical results.",
     absbox: "absPopup1",
   },
 
