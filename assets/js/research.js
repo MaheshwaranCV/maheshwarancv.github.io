@@ -56,25 +56,6 @@ const research = [
       "Development of a solar-powered rotary tiller for soil cultivation and weed management in India, addressing affordability issues for small-scale farmers with efficient, self-guided technology.",
     absbox: "absPopup3",
   },
-
-  // {
-  //   title:
-  //     "Design and Fabrication of Solar Power Tiller",
-  //   authors: "Vetri Velmurugan K, Maheshwaran C V, Balabadra Abhizgn, Jagadeesh C, Gokul V <br><br>",
-  //   journal: "International Journal of Scientific Research in Engineering and Management (IJSREM)",
-  //   conferences:
-  //     "Full Text : <a href = 'https://www.doi.org/10.55041/IJSREM30844'> View </a>",
-  //   researchYr: 2024,
-  //   citebox: "popup1",
-  //   image: "assets/images/research-page/SolarTiller.png",
-  //   citation: {
-  //     vancouver:
-  //       "Vetri Velmurugan K, Maheshwaran C V, Balabadra Abhizgn, Jagadeesh C, Gokul V. Design and Fabrication of Solar Power Tiller. International Journal of Scientific Research in Engineering and Management (IJSREM) 2024.",
-  //   },
-  //   abstract:
-  //     "Development of a solar-powered rotary tiller for soil cultivation and weed management in India, addressing affordability issues for small-scale farmers with efficient, self-guided technology.",
-  //   absbox: "absPopup1",
-  // },
 ];
 
 AOS.init();
