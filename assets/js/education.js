@@ -171,61 +171,49 @@ document.addEventListener("DOMContentLoaded", showCards1);
 
 /* Timeline Section*/
 
-const timeline = document.querySelector(".timeline-container");
-const timelinesection = [
-  // {
-  //   heading: "University of Massachusetts at Amherst",
-  //   image: "assets/images/education-page/umass.png",
-  //   subheading: "Masters of Science, Computer Science, (2023-Present) ",
-  //   description:
-  //     "",
-  // },
-  {
-    heading: "Sri Sairam Engineering College, Chennai",
-    image: "assets/images/education-page/sec_logo.png",
-    subheading: "Bachelor of Engineering, Mechanical Engineering, (2019-2023) ",
-    description:
-      "<li>CGPA: 9.27 (First Class with Distinction)</li><li>Top 3% in the department</li><li>Published 3 International Papers</li><li>Class Representative from 2019-2020</li><li>Member of mBaja Team - The Rocketeer Racing (TRR)</li><li>Member of Society of Automotive Engineers (SAE), Indian Welding Society (IWS)</li>",
-  },
+$(function () {
+  window.sr = ScrollReveal();
 
-  {
-    heading: "Sowdambikaa MBHSS, Thuraiyur",
-    image: "assets/images/education-page/sowdambikaa.png",
-    subheading: "Higher Secondary, Computer Science, (2018-2019) ",
-    description:
-      "<li>84.67% in HSC</li>",
-  },
+  if ($(window).width() < 768) {
+    if ($(".timeline-content").hasClass("js--fadeInLeft")) {
+      $(".timeline-content")
+        .removeClass("js--fadeInLeft")
+        .addClass("js--fadeInRight");
+    }
 
-  {
-    heading: "Jawahar MHSS, Neyveli",
-    image: "assets/images/education-page/jawahar_logo.png",
-    subheading: "High School, (2016-2017) ",
-    description:
-      "<br><li>90.8% in SSLC</li><li>Student Member of Junior Red Cross (JRC)</li><li>Played Badminton for the school team</li>",
-  },
-];
+    sr.reveal(".js--fadeInRight", {
+      origin: "right",
+      distance: "300px",
+      easing: "ease-in-out",
+      duration: 800,
+    });
+  } else {
+    sr.reveal(".js--fadeInLeft", {
+      origin: "left",
+      distance: "300px",
+      easing: "ease-in-out",
+      duration: 800,
+    });
 
-const showCards2 = () => {
-  let output = "";
-  timelinesection.forEach(
-    ({ heading, image, subheading, description }) =>
-      (output += `       
-    <div class="timeline-item">
-    <div class="timeline-img">
-        
-    </div>
+    sr.reveal(".js--fadeInRight", {
+      origin: "right",
+      distance: "300px",
+      easing: "ease-in-out",
+      duration: 800,
+    });
+  }
 
-    <div class="timeline-content js--fadeInLeft">
-        <img src="${image}" class="featured-image">
-    <div class="timeline-content-text">
-      <h2>${heading}</h2>
-      <h6>${subheading}</h6>
-      <p>${description}</p>
-     
-    </div>
-    </div>
-  </div>`)
-  );
-  timeline.innerHTML = output;
-};
-document.addEventListener("DOMContentLoaded", showCards2);
+  sr.reveal(".js--fadeInLeft", {
+    origin: "left",
+    distance: "300px",
+    easing: "ease-in-out",
+    duration: 800,
+  });
+
+  sr.reveal(".js--fadeInRight", {
+    origin: "right",
+    distance: "300px",
+    easing: "ease-in-out",
+    duration: 800,
+  });
+});
