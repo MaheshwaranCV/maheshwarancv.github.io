@@ -45,9 +45,9 @@ const techStack = [
     langDesc: "<li>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</li>",
   },
   {
-    langImage: "assets/images/techstack-page/react.png",
-    langName: "React",
-    langDesc: "<li>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components</li>",
+    langImage: "assets/images/techstack-page/sap.png",
+    langName: "SAP",
+    langDesc: "<li>SAP is a leading provider of enterprise resource planning (ERP) software solutions for businesses to streamline their operations.</li>",
   },
   {
     langImage:"assets/images/techstack-page/c.png",
