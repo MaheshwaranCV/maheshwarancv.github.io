@@ -42,7 +42,7 @@ const research = [
   {
     title:
       "Design and Fabrication of Solar Power Tiller",
-    authors: "Vetri Velmurugan K, Maheshwaran C V, Balabadra Abhizgn, Jagadeesh C, Gokul V",
+    authors: "Vetri Velmurugan K, Maheshwaran C V, Balabadra Abhizgn, Jagadeesh C and Gokul V",
     conferences:
       "International Journal of Scientific Research in Engineering and Management (IJSREM)",
     researchYr: 2024,
