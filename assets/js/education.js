@@ -171,49 +171,53 @@ document.addEventListener("DOMContentLoaded", showCards1);
 
 /* Timeline Section*/
 
-$(function () {
-  window.sr = ScrollReveal();
+const timeline = document.querySelector(".timeline-container");
+const timelinesection = [
+  {
+    heading: "University of Massachusetts at Amherst",
+    image: "assets/images/education-page/umass.png",
+    subheading: "Masters of Science, Computer Science, (2023-Present) ",
+    description:
+      "",
+  },
+  {
+    heading: "SSN College of Engineering",
+    image: "assets/images/education-page/ssn.png",
+    subheading: "Bachelors of Technology, Information Technology, (2018-2022) ",
+    description:
+      "<li>CGPA: 8.9</li><li>Event Head of Procode(Intra department coding club)</li><li>Member of Coding Club, ML Tech Club</li>",
+  },
 
-  if ($(window).width() < 768) {
-    if ($(".timeline-content").hasClass("js--fadeInLeft")) {
-      $(".timeline-content")
-        .removeClass("js--fadeInLeft")
-        .addClass("js--fadeInRight");
-    }
+  {
+    heading: "Sacred Heart MHSS Church Park",
+    image: "assets/images/education-page/school.jpeg",
+    subheading: "Computer Science, (2004-2018) ",
+    description:
+      "<br><li>93.75% in HSC</li>&nbsp;&nbsp;&nbsp;<li>97% in SSLC</li><li>Vice Captain and Captain of School house 2016-2018</li><li>Merit Rank Holder from 2008-2018</li><li>Member of Student Council</li>",
+  },
+];
 
-    sr.reveal(".js--fadeInRight", {
-      origin: "right",
-      distance: "300px",
-      easing: "ease-in-out",
-      duration: 800,
-    });
-  } else {
-    sr.reveal(".js--fadeInLeft", {
-      origin: "left",
-      distance: "300px",
-      easing: "ease-in-out",
-      duration: 800,
-    });
+const showCards2 = () => {
+  let output = "";
+  timelinesection.forEach(
+    ({ heading, image, subheading, description }) =>
+      (output += `       
+    <div class="timeline-item">
+    <div class="timeline-img">
+        
+    </div>
 
-    sr.reveal(".js--fadeInRight", {
-      origin: "right",
-      distance: "300px",
-      easing: "ease-in-out",
-      duration: 800,
-    });
-  }
-
-  sr.reveal(".js--fadeInLeft", {
-    origin: "left",
-    distance: "300px",
-    easing: "ease-in-out",
-    duration: 800,
-  });
-
-  sr.reveal(".js--fadeInRight", {
-    origin: "right",
-    distance: "300px",
-    easing: "ease-in-out",
-    duration: 800,
-  });
-});
+    <div class="timeline-content js--fadeInLeft">
+        <img src="${image}" class="featured-image">
+    <div class="timeline-content-text">
+      <h2>${heading}</h2>
+      <h6>${subheading}</h6>
+      <p>${description}</p>
+     
+    </div>
+    </div>
+  </div>`)
+  );
+  timeline.innerHTML = output;
+};
+document.addEventListener("DOMContentLoaded", showCards2);
