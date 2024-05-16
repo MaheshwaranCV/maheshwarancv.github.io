@@ -173,27 +173,35 @@ document.addEventListener("DOMContentLoaded", showCards1);
 
 const timeline = document.querySelector(".timeline-container");
 const timelinesection = [
+  // {
+  //   heading: "University of Massachusetts at Amherst",
+  //   image: "assets/images/education-page/umass.png",
+  //   subheading: "Masters of Science, Computer Science, (2023-Present) ",
+  //   description:
+  //     "",
+  // },
   {
-    heading: "University of Massachusetts at Amherst",
-    image: "assets/images/education-page/umass.png",
-    subheading: "Masters of Science, Computer Science, (2023-Present) ",
+    heading: "Sri Sairam Engineering College, Chennai",
+    image: "assets/images/education-page/sec_logo.png",
+    subheading: "Bachelor of Engineering, Mechanical Engineering, (2019-2023) ",
     description:
-      "",
-  },
-  {
-    heading: "SSN College of Engineering",
-    image: "assets/images/education-page/ssn.png",
-    subheading: "Bachelors of Technology, Information Technology, (2018-2022) ",
-    description:
-      "<li>CGPA: 8.9</li><li>Event Head of Procode(Intra department coding club)</li><li>Member of Coding Club, ML Tech Club</li>",
+      "<li>CGPA: 9.27 (First Class with Distinction)</li><li>Top 3% in the department</li><li>Published 3 International Papers</li><li>Class Representative from 2019-2020</li><li>Member of mBaja Team - The Rocketeer Racing (TRR)</li><li>Member of Society of Automotive Engineers (SAE), Indian Welding Society (IWS)</li>",
   },
 
   {
-    heading: "Sacred Heart MHSS Church Park",
-    image: "assets/images/education-page/school.jpeg",
-    subheading: "Computer Science, (2004-2018) ",
+    heading: "Sowdambikaa MBHSS, Thuraiyur",
+    image: "assets/images/education-page/sowdambikaa.png",
+    subheading: "Higher Secondary, Computer Science, (2018-2019) ",
     description:
-      "<br><li>93.75% in HSC</li>&nbsp;&nbsp;&nbsp;<li>97% in SSLC</li><li>Vice Captain and Captain of School house 2016-2018</li><li>Merit Rank Holder from 2008-2018</li><li>Member of Student Council</li>",
+      "<li>84.67% in HSC</li>",
+  },
+
+  {
+    heading: "Jawahar MHSS, Neyveli",
+    image: "assets/images/education-page/jawahar_logo.png",
+    subheading: "High School, (2016-2017) ",
+    description:
+      "<br><li>90.8% in SSLC</li><li>Student Member of Junior Red Cross (JRC)</li><li>Played Badminton for the school team</li>",
   },
 ];
 
