@@ -83,7 +83,7 @@ const fillData = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="#0" class="paperTitle"> ${title} </a>
+                    
                     <a href="${Previewlink}" target="_blank" class="paperTitle"> ${title} </a> <!-- Added target="_blank" here -->
                     <div class = "authors"> ${authors} </div>
                     
