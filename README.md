@@ -1,4 +1,4 @@
-<h1> <a href="https://MaheshwaranCV.github.io/Portfolio">My Portfolio Website </a> </h1>
+<h1> <a href="https://MaheshwaranCV.github.io/portfolio">My Portfolio Website </a> </h1>
 
 <img
               src="assets/images/snapshot1.png"
