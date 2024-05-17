@@ -5,21 +5,21 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
+    title: "Full-Stack Techno Functional Consultant Intern",
+    cardImage: "assets/images/experience-page/KaarTech.jpg",
+    place: "Kaar Technologies",
+    time: "(Oct 2022 - present)",
     desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
   },
   {
-    title: "Student Developer",
+    title: "Student Intern",
     cardImage: "assets/images/experience-page/gsoc.png",
     place: "Google Summer Of Code",
     time: "(Mar - Aug, 2019)",
     desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
   },
   {
-    title: "Research Intern",
+    title: "Steering and Suspension Engineer",
     cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
     place: "IIT, Bombay",
     time: "(Dec, 19 - Jan, 20)",
