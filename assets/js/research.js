@@ -17,8 +17,9 @@ const research = [
         "Dinesh Kumar S K, Maheshwaran C V, Hari Kiran B, Adithiyan S, Lokesh Kumar, Balaji N. Effect of Dimples on the Blades of a Vertical Axis Wind Turbine. 3rd International Conference on Innovations in Thermal, Manufacturing, Structural and Environmental Engineering - ICITMSEE2022. 2023.",
     },
     abstract:
-    "Dimpled aerofoil (NACA 0015) on a wind turbine blade reduces drag and turbulence, increasing blade velocity and power generation, validated through computational and practical tests.",  
+    "Dimpled aerofoil (NACA 0015) on a wind turbine blade reduces drag and turbulence, increasing blade velocity and power generation, validated through computational and practical tests.",
     absbox: "absPopup1",
+    link: "https://example.com/dimpled-blades"
   },
 
   {
@@ -37,11 +38,11 @@ const research = [
     abstract:
       "A portable drone-catching system utilizing a net-propelling gun powered by high-pressure air, designed to intercept and capture unauthorized drones intact for analysis and evidence retrieval.",
     absbox: "absPopup2",
+    link: "https://example.com/drone-catcher"
   },
 
   {
-    title:
-      "Design and Fabrication of Solar Power Tiller",
+    title: "Design and Fabrication of Solar Power Tiller",
     authors: "Vetri Velmurugan K, Maheshwaran C V, Balabadra Abhizgn, Jagadeesh C, Gokul V",
     conferences:
       "International Journal of Scientific Research in Engineering and Management (IJSREM)",
@@ -55,6 +56,7 @@ const research = [
     abstract:
       "Development of a solar-powered rotary tiller for soil cultivation and weed management in India, addressing affordability issues for small-scale farmers with efficient, self-guided technology.",
     absbox: "absPopup3",
+    link: "https://example.com/solar-tiller"
   },
 ];
 
@@ -82,8 +84,8 @@ const fillData = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="https://quillbot.com/grammar-check" class="paperTitle"> ${title} </a> 
-                    <div class = "authors"> ${authors} </div> 
+                    <a href="${link}" class="paperTitle"> ${title} </a> 
+                    <div class="authors"> ${authors} </div> 
                     
                     <div class="rConferences"> ${conferences} 
                         <div class="researchY">${researchYr}</div>
