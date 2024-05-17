@@ -57,7 +57,6 @@ const research = [
     absbox: "absPopup3",
   },
 ];
-
 AOS.init();
 const fillData = () => {
   let output = "";
