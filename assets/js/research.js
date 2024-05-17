@@ -5,7 +5,6 @@ const researchTable = document.querySelector(".main");
 const research = [
   {
     title: "Effect of Dimples on the Blades of a Vertical Axis Wind Turbine",
-    Previewlink: "https://pubs.aip.org/aip/acp/article-lookup/doi/10.1063/5.0172422",
     authors:
       "Dinesh Kumar S K, Maheshwaran C V, Hari Kiran B, Adithiyan S, Lokesh Kumar, Balaji N",
     conferences:
@@ -82,7 +81,7 @@ const fillData = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="${Previewlink}" class="paperTitle"> ${title} </a> 
+                    <a href="#0" class="paperTitle"> ${title} </a> 
                     <div class = "authors"> ${authors} </div> 
                     
                     <div class="rConferences"> ${conferences} 
