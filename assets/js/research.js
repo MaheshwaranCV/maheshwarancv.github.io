@@ -19,7 +19,6 @@ const research = [
     abstract:
     "Dimpled aerofoil (NACA 0015) on a wind turbine blade reduces drag and turbulence, increasing blade velocity and power generation, validated through computational and practical tests.",  
     absbox: "absPopup1",
-    link: "https://quillbot.com/grammar-check"
   },
 
   {
@@ -83,7 +82,7 @@ const fillData = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="#0" class="paperTitle"> ${title} </a> 
+                    <a href="https://quillbot.com/grammar-check" class="paperTitle"> ${title} </a> 
                     <div class = "authors"> ${authors} </div> 
                     
                     <div class="rConferences"> ${conferences} 
