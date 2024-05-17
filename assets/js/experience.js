@@ -13,16 +13,16 @@ const exp = [
   },
   {
     title: "Student Intern",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
+    cardImage: "assets/images/experience-page/shivprema.jpg",
+    place: "ShivPrema Project Consultant, Chennai",
+    time: "(Aug 2021 - Oct 2021)",
     desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
   },
   {
     title: "Steering and Suspension Engineer",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
+    cardImage: "assets/images/experience-page/rocketeer.jpg",
+    place: "The Rocketeer Racing (TRR)",
+    time: "(Mar 2020 - Sep 2021)",
     desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
   },
 ];
