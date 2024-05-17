@@ -73,6 +73,7 @@ const fillData = () => {
       citation,
       absbox,
       abstract,
+      Previewlink
     }) =>
       (output += `
             <tr data-aos="zoom-in-left"> 
