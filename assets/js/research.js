@@ -5,6 +5,7 @@ const researchTable = document.querySelector(".main");
 const research = [
   {
     title: "Effect of Dimples on the Blades of a Vertical Axis Wind Turbine",
+    Previewlink: "https://pubs.aip.org/aip/acp/article-lookup/doi/10.1063/5.0172422",
     authors:
       "Dinesh Kumar S K, Maheshwaran C V, Hari Kiran B, Adithiyan S, Lokesh Kumar, Balaji N",
     conferences:
@@ -23,6 +24,7 @@ const research = [
 
   {
     title: "Pneumatic Powered Drone Catcher Gun",
+    Previewlink: "https://www.doi.org/10.55041/IJSREM30672",
     authors:
       "Vetri Velmurugan K, Maheshwaran C V, Balabadra Abhizgn, Jagadeesh C",
     conferences:
@@ -40,8 +42,8 @@ const research = [
   },
 
   {
-    title:
-      "Design and Fabrication of Solar Power Tiller",
+    title: "Design and Fabrication of Solar Power Tiller",
+      Previewlink: "https://www.doi.org/10.55041/IJSREM30844",
     authors: "Vetri Velmurugan K, Maheshwaran C V, Balabadra Abhizgn, Jagadeesh C, Gokul V",
     conferences:
       "International Journal of Scientific Research in Engineering and Management (IJSREM)",
@@ -81,8 +83,9 @@ const fillData = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="#0" class="paperTitle"> ${title} </a> 
-                    <div class = "authors"> ${authors} </div> 
+                    <a href="#0" class="paperTitle"> ${title} </a>
+                    <a href="${Previewlink}" target="_blank" class="paperTitle"> ${title} </a> <!-- Added target="_blank" here -->
+                    <div class = "authors"> ${authors} </div>
                     
                     <div class="rConferences"> ${conferences} 
                         <div class="researchY">${researchYr}</div>
