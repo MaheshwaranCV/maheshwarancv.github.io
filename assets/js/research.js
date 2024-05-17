@@ -19,7 +19,7 @@ const research = [
     abstract:
     "Dimpled aerofoil (NACA 0015) on a wind turbine blade reduces drag and turbulence, increasing blade velocity and power generation, validated through computational and practical tests.",  
     absbox: "absPopup1",
-    link: "https://chatgpt.com/c/ae817d14-af2e-4f8c-b7d1-0a667335cac2"
+    link: "https://quillbot.com/grammar-check"
   },
 
   {
