@@ -19,7 +19,7 @@ const research = [
     abstract:
     "Dimpled aerofoil (NACA 0015) on a wind turbine blade reduces drag and turbulence, increasing blade velocity and power generation, validated through computational and practical tests.",
     absbox: "absPopup1",
-    link: "https://example.com/dimpled-blades"
+    link: "https://pubs.aip.org/aip/acp/article-lookup/doi/10.1063/5.0172422"
   },
 
   {
@@ -38,7 +38,7 @@ const research = [
     abstract:
       "A portable drone-catching system utilizing a net-propelling gun powered by high-pressure air, designed to intercept and capture unauthorized drones intact for analysis and evidence retrieval.",
     absbox: "absPopup2",
-    link: "https://example.com/drone-catcher"
+    link: "https://www.doi.org/10.55041/IJSREM30672"
   },
 
   {
@@ -56,7 +56,7 @@ const research = [
     abstract:
       "Development of a solar-powered rotary tiller for soil cultivation and weed management in India, addressing affordability issues for small-scale farmers with efficient, self-guided technology.",
     absbox: "absPopup3",
-    link: "https://example.com/solar-tiller"
+    link: "https://www.doi.org/10.55041/IJSREM30844"
   },
 ];
 
