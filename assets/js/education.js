@@ -5,29 +5,24 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "SAP S/4HANA",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "",
+    title: "AWS Certified Cloud Practitioner",
+    cardImage: "assets/images/education-page/AWS.svg",
+    moocLink: "https://www.credly.com/badges/c01e8140-7056-4ea2-bec3-ac7b2ef7191b/linked_in?t=rj3uzx",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "",
+    title: "Product Lifecycle Management",
+    cardImage: "assets/images/education-page/PLM.png",
+    moocLink: "https://drive.google.com/file/d/1f0caH4ZRa84jrDx2yCIl_K8goj-iGOlp/view?usp=sharing",
   },
   {
-    title: "Machine Learning",
+    title: "Sustainable Development Goals",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "",
+    moocLink: "https://coursera.org/share/4088c5743e2ebc04ee9c5ccdf89f02a4",
   },
   {
-    title: "Introduction to HTML 5",
+    title: "Introduction to Self-Driving Cars",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "",
-  },
-  {
-    title: "SAP S/4HANA",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "",
+    moocLink: "https://coursera.org/share/c3708f34f20367956027bf85089bb458",
   },
   {
     title: "SAP S/4HANA",
@@ -39,33 +34,22 @@ const moocscards = [
     cardImage: "assets/images/education-page/udemy.svg",
     moocLink: "https://www.udemy.com/certificate/UC-2d0cc558-5188-4772-a0d5-e592381cd047/",
   },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "",
-  },
-  {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink:
-      "",
-  },
-  {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink:
-      "",
-  },
+  // {
+  //   title: "Intro to React",
+  //   cardImage: "assets/images/education-page/udemy.svg",
+  //   moocLink: "",
+  // },
+  // {
+  //   title: "Intro to React Native",
+  //   cardImage: "assets/images/education-page/coursera2.svg",
+  //   moocLink:
+  //     "",
+  // },
+  // {
+  //   title: "NodeJS, Express and MongoDB",
+  //   cardImage: "assets/images/education-page/coursera2.svg",
+  //   moocLink: "",
+  // },
 ];
 
 const experience = [
