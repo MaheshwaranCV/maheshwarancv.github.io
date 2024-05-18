@@ -6,7 +6,7 @@ const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
     title: "AWS Certified Cloud Practitioner",
-    cardImage: "assets/images/education-page/AWS.svg",
+    cardImage: "assets/images/education-page/aws.svg",
     moocLink: "https://www.credly.com/badges/c01e8140-7056-4ea2-bec3-ac7b2ef7191b/linked_in?t=rj3uzx",
   },
   {
