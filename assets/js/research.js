@@ -82,7 +82,6 @@ const fillData = () => {
                     <div class="rConferences"> ${conferences} </div>
                     <br>
                     <div class="rJournal"> ${journal} </div>
-                    <br>
                     <div class="researchY">${researchYr}</div>
                     
                     <!--CITE BUTTON-->
