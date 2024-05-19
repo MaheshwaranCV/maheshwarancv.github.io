@@ -35,21 +35,36 @@ const moocscards = [
     moocLink: "https://www.udemy.com/certificate/UC-2d0cc558-5188-4772-a0d5-e592381cd047/",
   },
   {
-    title: "Baja SAE India 2021 Embracing Challenges",
-    cardImage: "assets/images/education-page/baja.png",
-    moocLink: "",
-  },
-  {
-    title: "Mega ATV Championship 2021",
-    cardImage: "assets/images/education-page/baja.png",
-    moocLink:
-      "",
-  },
-  {
     title: "SQL Basics",
     cardImage: "assets/images/education-page/skillrack.png",
     moocLink: "",
   },
+  {
+    title: "Python 3X Programming",
+    cardImage: "assets/images/education-page/skillrack.png",
+    moocLink: "",
+  },
+  {
+    title: "Python 3X Challenges",
+    cardImage: "assets/images/education-page/skillrack.png",
+    moocLink: "",
+  },
+  {
+    title: "C Programming",
+    cardImage: "assets/images/education-page/skillrack.png",
+    moocLink: "",
+  },
+  {
+    title: "Baja SAE India 2021 Embracing Challenges",
+    cardImage: "assets/images/education-page/baja.jpeg",
+    moocLink: "",
+  },
+  {
+    title: "Mega ATV Championship 2021",
+    cardImage: "assets/images/education-page/baja.jpeg",
+    moocLink:
+      "",
+  }
 ];
 
 const experience = [
