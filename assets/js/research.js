@@ -76,13 +76,13 @@ const fillData = () => {
                     </div>
                     
                     <a href="${Previewlink}" target="_blank" class="paperTitle"> ${title} </a>
-                    <br><br>
+                    <br>
                     <div class="authors"> ${authors} </div>
-                    <br><br>
+                    <br>
                     <div class="rConferences"> ${conferences} </div>
-                    <br><br>
+                    <br>
                     <div class="rJournal"> ${journal} </div>
-                    <br><br>
+                    <br>
                     <div class="researchY">${researchYr}</div>
                     
                     <!--CITE BUTTON-->
