@@ -68,20 +68,22 @@ const fillData = () => {
       (output += `
             <tr data-aos="zoom-in-left"> 
                 <td class="imgCol"><img src="${image}" class="rImg"></td>
-                <td class = "researchTitleName">
+                <td class="researchTitleName">
                     <div class="img-div">
                         <span class="imgResponsive">
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
                     
-                    <a href="${Previewlink}" target="_blank" class="paperTitle"> ${title} </a> <!-- Added target="_blank" here -->
-                    <div class = "authors"> ${authors} </div>
-                    
-                    <div class="rConferences"> ${conferences} 
-                        <div class="journal"> ${journal} </div>
-                        <div class="researchY">${researchYr}</div>
-                    </div>
+                    <a href="${Previewlink}" target="_blank" class="paperTitle"> ${title} </a>
+                    <br><br>
+                    <div class="authors"> ${authors} </div>
+                    <br><br>
+                    <div class="rConferences"> ${conferences} </div>
+                    <br><br>
+                    <div class="rJournal"> ${journal} </div>
+                    <br><br>
+                    <div class="researchY">${researchYr}</div>
                     
                     <!--CITE BUTTON-->
                     <div class="d-flex" style="margin-right:5%;">
@@ -108,5 +110,4 @@ const fillData = () => {
   );
   researchTable.innerHTML = output;
 };
-
 document.addEventListener("DOMContentLoaded", fillData);
