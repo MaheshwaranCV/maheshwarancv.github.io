@@ -35,35 +35,34 @@ const moocscards = [
     moocLink: "https://www.udemy.com/certificate/UC-2d0cc558-5188-4772-a0d5-e592381cd047/",
   },
   {
-    title: "SQL Basics",
-    cardImage: "assets/images/education-page/skillrack.png",
-    moocLink: "",
-  },
-  {
-    title: "Python 3X Programming",
-    cardImage: "assets/images/education-page/skillrack.png",
-    moocLink: "",
-  },
-  {
-    title: "Python 3X Challenges",
-    cardImage: "assets/images/education-page/skillrack.png",
-    moocLink: "",
-  },
-  {
     title: "C Programming",
     cardImage: "assets/images/education-page/skillrack.png",
-    moocLink: "",
+    moocLink: "https://www.skillrack.com/cert/245213/CXF",
+  },
+  {
+    title: "Python Programming",
+    cardImage: "assets/images/education-page/skillrack.png",
+    moocLink: "https://www.skillrack.com/cert/111125/QWV",
+  },
+  {
+    title: "Python Challenges",
+    cardImage: "assets/images/education-page/skillrack.png",
+    moocLink: "https://www.skillrack.com/cert/93049/ADN",
+  },
+  {
+    title: "SQL Basics",
+    cardImage: "assets/images/education-page/skillrack.png",
+    moocLink: "https://www.skillrack.com/cert/256955/SZP",
   },
   {
     title: "Baja SAE India 2021 Embracing Challenges",
     cardImage: "assets/images/education-page/baja.jpeg",
-    moocLink: "",
+    moocLink: "https://drive.google.com/file/d/1e_OLsnVRY9zaDDT4GtN4s4YgR3LY-FuK/view?usp=sharing",
   },
   {
     title: "Mega ATV Championship 2021",
     cardImage: "assets/images/education-page/baja.jpeg",
-    moocLink:
-      "",
+    moocLink: "https://drive.google.com/file/d/1eb79nQIYl6nA3CObhemFjm4_-klJK7kd/view?usp=sharing",
   }
 ];
 
