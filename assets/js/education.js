@@ -63,7 +63,12 @@ const moocscards = [
     title: "Mega ATV Championship 2021",
     cardImage: "assets/images/education-page/baja.jpeg",
     moocLink: "https://drive.google.com/file/d/1eb79nQIYl6nA3CObhemFjm4_-klJK7kd/view?usp=sharing",
-  }
+  },
+  // {
+  //   title: "3D Printing",
+  //   cardImage: "assets/images/education-page/3dprinting.png",
+  //   moocLink: "https://drive.google.com/file/d/1_23ItsPvBs_kBLNLzNoa_eF3EMMj7ye4/view?usp=sharing",
+  // }
 ];
 
 const experience = [
