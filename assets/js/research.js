@@ -64,8 +64,8 @@ const fillData = () => {
       absbox,
       abstract,
       Previewlink
-    }) =>
-      (output += `
+    }) => {
+      output += `
             <tr data-aos="zoom-in-left"> 
                 <td class="imgCol"><img src="${image}" class="rImg"></td>
                 <td class="researchTitleName">
@@ -77,11 +77,9 @@ const fillData = () => {
                     
                     <a href="${Previewlink}" target="_blank" class="paperTitle"> ${title} </a>
                     <br>
-                    <div class="authors"> ${authors} </div>
-                    <br>
-                    <div class="rConferences"> ${conferences} </div>
-                    <br>
-                    <div class="rJournal"> ${journal} </div>
+                    ${authors ? `<div class="authors"> ${authors} </div><br>` : ''}
+                    ${conferences ? `<div class="rConferences"> ${conferences} </div><br>` : ''}
+                    ${journal ? `<div class="rJournal"> ${journal} </div>` : ''}
                     <div class="researchY">${researchYr}</div>
                     
                     <!--CITE BUTTON-->
@@ -105,7 +103,8 @@ const fillData = () => {
                         </div>
                     </div>
                 </td>
-            </tr>`)
+            </tr>`;
+    }
   );
   researchTable.innerHTML = output;
 };
