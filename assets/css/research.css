@@ -802,27 +802,5 @@ a:hover {
   }
   .researchTitleName {
     width: 60%;
-  }
-
-
-
-
-
-  
-  .button-container {
-    margin-top: 0.5em; /* Adjust the margin-top to control spacing */
-    display: flex;
-    gap: 10px; /* Adjust the gap between the buttons */
-  }
-  
-  .button {
-    margin: 0; /* Remove any default margins */
-  }
-  
-  @media (min-width: 60rem) {
-    .button-container {
-      justify-content: flex-start; /* Align buttons to the start on larger screens */
-    }
-  }
-  
+  }  
 }
