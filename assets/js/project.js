@@ -62,7 +62,7 @@ const projects = [
     Previewlink: "",
   },
   {
-    title: "Sales Forecast Application",
+    title: "Sales Forecast App",
     cardImage: "assets/images/project-page/SalesForecastApp.jpg",
     description: "Tech Stack: Angular, Python, Flask",
     Githublink: "https://github.com/MaheshwaranCV/Sales-Forecast-Application",
