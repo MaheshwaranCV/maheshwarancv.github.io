@@ -71,6 +71,7 @@ const projects = [
   },
 ];
 
+// function for rendering project cards data
 const showCards = () => {
   let output = "";
   projects.forEach(({ title, cardImage, Previewlink, Githublink, Videolink }) => {
@@ -82,10 +83,14 @@ const showCards = () => {
             <div class="data">
               <div class="content">
                 <div class="title-div">
-                  <h1 class="title">${title} <a href="${Githublink}" target="_blank" class="github-link"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></h1>
+                  <h1 class="title"><a href="${Githublink}">${title}</a></h1>
                 </div>
                 <ul class="menu-content"><br>`;
 
+    if (Githublink) {
+      output += `<li><a href="${Githublink}" class="social-icon" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>`;
+    }
+    
     if (Videolink) {
       output += `<li><a href="${Videolink}" class="social-icon" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M23.498 6.186a3.003 3.003 0 0 0-2.119-2.121C19.604 3.5 12 3.5 12 3.5s-7.604 0-9.379.565a3.003 3.003 0 0 0-2.119 2.12C0.5 8.561 0.5 12 0.5 12s0 3.439.564 5.814a3.003 3.003 0 0 0 2.12 2.119C4.396 20.5 12 20.5 12 20.5s7.604 0 9.379-.565a3.003 3.003 0 0 0 2.119-2.12C23.5 15.439 23.5 12 23.5 12s0-3.439-.002-5.814zM9.751 15.028v-6.05l6.047 3.029-6.047 3.021z"/></svg></a></li>`;
     }
@@ -103,6 +108,8 @@ const showCards = () => {
   });
   projectcards.innerHTML = output;
 };
+
+document.addEventListener("DOMContentLoaded", showCards);
 
 document.addEventListener("DOMContentLoaded", showCards);
 
