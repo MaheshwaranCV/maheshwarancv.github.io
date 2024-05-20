@@ -125,7 +125,7 @@ const showCards = () => {
     }
     
     if (Videolink) {
-      output += `<li><a href="${Videolink}" class="social-icon" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-video"><path d="M23 7l-7 5 7 5V7z"></path><rect x="1" y="5" width="20" height="14" rx="2" ry="2"></rect></svg></a></li>`;
+      output += `<li><a href="${Videolink}" class="social-icon" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 24 24" fill="#fff"><path d="M23.498 6.186a3.003 3.003 0 0 0-2.119-2.121C19.604 3.5 12 3.5 12 3.5s-7.604 0-9.379.565a3.003 3.003 0 0 0-2.119 2.12C0.5 8.561 0.5 12 0.5 12s0 3.439.564 5.814a3.003 3.003 0 0 0 2.12 2.119C4.396 20.5 12 20.5 12 20.5s7.604 0 9.379-.565a3.003 3.003 0 0 0 2.119-2.12C23.5 15.439 23.5 12 23.5 12s0-3.439-.002-5.814zM9.751 15.028v-6.05l6.047 3.029-6.047 3.021z"/></svg></a></li>`;
     }
     
     output += `
