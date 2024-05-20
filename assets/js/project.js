@@ -8,7 +8,7 @@ const projects = [
   {
     title: "Customer Portal",
     cardImage: "assets/images/project-page/CusPortal.png",
-    description: "The Customer Portal maintains data, enabling access to complete transaction records.",
+    description: "Tech Stack: Angular, SAP RFC Webservice, SAP Database",
     Githublink: "https://github.com/MaheshwaranCV/Cust-Ven-Emp_Portals",
     Videolink: "https://drive.google.com/file/d/1KUOWfeLsVsi1_8Fck0LCkEpMmWkn2azE/view?usp=sharing",
     Previewlink: "https://cust-ven-emp-portals.netlify.app/",
@@ -16,7 +16,7 @@ const projects = [
   {
     title: "Vendor Portal",
     cardImage: "assets/images/project-page/VenPortal.jpg",
-    description: "A chess engine for a popular game dev engine.",
+    description: "Tech Stack: Angular, SAP PI/PO, SAP Database",
     Githublink: "https://github.com/MaheshwaranCV/Cust-Ven-Emp_Portals",
     Videolink: "https://drive.google.com/file/d/1KUOWfeLsVsi1_8Fck0LCkEpMmWkn2azE/view?usp=sharing",
     Previewlink: "https://cust-ven-emp-portals.netlify.app/",
@@ -24,7 +24,7 @@ const projects = [
   {
     title: "Employee Portal",
     cardImage: "assets/images/project-page/EmpPortal.jpg",
-    description: "Flappy bird game built using React.js",
+    description: "Tech Stack: Angular, SAP PI/PO, SAP Database",
     Githublink: "https://github.com/MaheshwaranCV/Cust-Ven-Emp_Portals",
     Videolink: "https://drive.google.com/file/d/1KUOWfeLsVsi1_8Fck0LCkEpMmWkn2azE/view?usp=sharing",
     Previewlink: "https://cust-ven-emp-portals.netlify.app/",
@@ -32,7 +32,7 @@ const projects = [
   {
     title: "Maintenance Portal",
     cardImage: "assets/images/project-page/MaintenancePortal.jpg",
-    description: "Exercise tracker built using basic redux.",
+    description: "Tech Stack: Flutter, SAP PI/PO, SAP Database",
     Githublink: "https://github.com/MaheshwaranCV/Maintenance-Portal",
     Videolink: "",
     Previewlink: "https://maintenance-portal.netlify.app/",
@@ -40,7 +40,7 @@ const projects = [
   {
     title: "Shop Floor Portal",
     cardImage: "assets/images/project-page/SFPPortal.jpg",
-    description: "Recipe Ingredient Parser built using JavaScript.",
+    description: "Tech Stack: SAP Ui5, SAP OData, SAP Database",
     Githublink: "https://github.com/MaheshwaranCV/Shop-Floor-Portal",
     Videolink: "https://drive.google.com/file/d/1xQ9ud3lE5QpfSJ8OfE2BOw8Nc1HiR-lS/view?usp=sharing",
     Previewlink: "",
@@ -48,7 +48,7 @@ const projects = [
   {
     title: "EHSM Portal",
     cardImage: "assets/images/project-page/EHSMPortal.jpg",
-    description: "Poker game built using typescript.",
+    description: "Tech Stack: SAP BTP, SAP OData, SAP Database",
     Githublink: "https://github.com/MaheshwaranCV/EHSM-Portal",
     Videolink: "https://drive.google.com/file/d/1kn_i6T4_JNCDFS2LGOOSVPOq4FsHd4t7/view?usp=sharing",
     Previewlink: "",
@@ -56,7 +56,7 @@ const projects = [
   {
     title: "Quality Portal",
     cardImage: "assets/images/project-page/QualityPortal.jpg",
-    description: "Tested a React Tic Tac Toe Game using Jest and React Testing Library.",
+    description: "Tech Stack: SAP BTP, SAP CDS views, SAP Database",
     Githublink: "https://github.com/MaheshwaranCV/Quality-Portal",
     Videolink: "https://drive.google.com/file/d/1kn_i6T4_JNCDFS2LGOOSVPOq4FsHd4t7/view?usp=sharing",
     Previewlink: "",
@@ -64,7 +64,7 @@ const projects = [
   {
     title: "Sales Forecast Application",
     cardImage: "assets/images/project-page/SalesForecastApp.jpg",
-    description: "Personal book library app built using JavaScript.",
+    description: "Tech Stack: Angular, Python, Flask",
     Githublink: "https://github.com/MaheshwaranCV/Sales-Forecast-Application",
     Videolink: "",
     Previewlink: "https://sales-forecasting.netlify.app/",
