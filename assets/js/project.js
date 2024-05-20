@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: "Employee Portal",
-    cardImage: "assets/images/project-page/VenPortal.jpg",
+    cardImage: "assets/images/project-page/EmpPortal.jpg",
     description: "Flappy bird game built using React.js",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "",
