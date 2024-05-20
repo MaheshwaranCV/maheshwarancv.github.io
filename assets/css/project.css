@@ -185,42 +185,11 @@ a:hover {
   display: inline-block;
 }
 
-/* .card .wrapper {
-  background-color: #fff;
-  border: 0;
-  border-radius: 10px;
-  min-height: 21.5rem;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 19px 38px var(--shadow1), 0 15px 12px var(--shadow2);
-} */
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 766px) {
-  .card .wrapper {
-    min-height: 25rem; /* Adjust as needed for small screens */
-  }
-}
-
-@media (min-width: 767px) and (max-width: 959px) {
-  .card .wrapper {
-    min-height: 21.5rem; /* Adjust as needed for medium screens */
-  }
-}
-
-/* Keep the existing styling for larger screens */
 .card .wrapper {
   background-color: #fff;
   border: 0;
   border-radius: 10px;
+  min-height: 21.5rem;
   position: relative;
   overflow: hidden;
   box-shadow: 0 19px 38px var(--shadow1), 0 15px 12px var(--shadow2);
