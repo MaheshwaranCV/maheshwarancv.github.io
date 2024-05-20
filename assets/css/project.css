@@ -856,18 +856,3 @@ SVG ANIMATIONS PROJECT PAGE
   animation-duration: 3.3s;
   transform-origin: 785.132px 295.833px;
 }
-
-
-
-
-
-
-
-
-.social-icon {
-  display: inline-block;
-}
-
-.menu-content li {
-  margin: 0 5px; /* Adjust margin for better spacing */
-}
