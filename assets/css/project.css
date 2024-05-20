@@ -116,7 +116,6 @@ body[light-mode="dark"] .light-mode-button span:nth-child(2) {
 @media (max-width: 959) {
   .projectcards {
     margin: 10px;
-    display: none;
   }
 }
 
