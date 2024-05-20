@@ -111,8 +111,6 @@ const showCards = () => {
 
 document.addEventListener("DOMContentLoaded", showCards);
 
-document.addEventListener("DOMContentLoaded", showCards);
-
 function myFunction() {
   // Declare variables
   var input, button, i, skillcard, card, title;
