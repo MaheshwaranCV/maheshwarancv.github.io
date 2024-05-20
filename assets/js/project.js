@@ -10,7 +10,7 @@ const projects = [
     cardImage: "assets/images/project-page/CusPortal.png",
     description: "A quiz app built using basic react.",
     Previewlink: "",
-    Githublink: "",
+    Githublink: "https://github.com/MaheshwaranCV/Cust-Ven-Emp_Portals",
     Videolink: "",
   },
   {
