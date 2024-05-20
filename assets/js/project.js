@@ -69,35 +69,6 @@ const projects = [
     Githublink: "https://github.com/MaheshwaranCV/Sales-Forecast-Application",
     Videolink: "",
   },
-  // {
-  //   title: "Minesweeper Game",
-  //   cardImage: "assets/images/project-page/minesweeper.jpg",
-  //   description:
-  //     "Minesweeper Game built using python Object Oriented Programming.",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
-  // {
-  //   title: "Battery Life Calculator",
-  //   cardImage: "assets/images/project-page/battery.png",
-  //   description: "Built battery life calculator using Python.",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
-  // {
-  //   title: "Movie Recommendation System",
-  //   cardImage: "assets/images/project-page/movie-recommendation.jpeg",
-  //   description: "Built using Tensorflow.",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
-  // {
-  //   title: "Music Recommendation Engine",
-  //   cardImage: "assets/images/project-page/music.jpg",
-  //   description: "Built using Python.",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
 ];
 
 // function for rendering project cards data
