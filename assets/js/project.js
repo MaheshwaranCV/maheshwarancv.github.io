@@ -8,7 +8,7 @@ const projects = [
   {
     title: "Customer Portal",
     cardImage: "assets/images/project-page/CusPortal.png",
-    description: "A quiz app built using basic react.",
+    description: "The Customer Portal maintains data, enabling access to complete transaction records.",
     Githublink: "https://github.com/MaheshwaranCV/Cust-Ven-Emp_Portals",
     Videolink: "https://drive.google.com/file/d/1KUOWfeLsVsi1_8Fck0LCkEpMmWkn2azE/view?usp=sharing",
     Previewlink: "https://cust-ven-emp-portals.netlify.app/",
