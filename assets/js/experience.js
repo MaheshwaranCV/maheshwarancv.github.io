@@ -23,7 +23,7 @@ const exp = [
     cardImage: "assets/images/experience-page/rocketeer.jpg",
     place: "The Rocketeer Racing (TRR)",
     time: "(Mar 2020 - Sep 2021)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    desp: "<li>Contributed as a Steering and Suspension Engineer and Go-Green Engineer at The Rocketeer Racing, a college mBaja - All Terrain Vehicle Design Team.</li> <li>Collaborated with a 25-member team, utilizing Solidworks for design and Ansys, Hypermesh for analysis to develop All Terrain Vehicles (ATVs).</li> <li>Showcased our engineering prowess globally, securing 7th AIR in BAJA by SAE India's Virtual Design Contest and achieving 6th AIR in the Mega ATV Championship by Autosports India's Off-Road Racing Event in Goa.</li>",
   },
 ];
 
