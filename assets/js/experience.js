@@ -9,7 +9,7 @@ const exp = [
     cardImage: "assets/images/experience-page/KaarTech.jpg",
     place: "Kaar Technologies",
     time: "(Oct 2022 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    desp: "<li>Successfully completed seven SAP projects, including Customer Portal, Vendor Portal, Employee Portal, Maintenance Portal, Shop Floor Portal, EHSM Portal, and Quality Portal.</li> <li>Developed a Sales Forecasting application, enhancing predictive analytics and decision-making capabilities.</li> <li>Acquired proficiency in SAP FICO, expanding expertise in Finance and Controlling modules.</li>",
   },
   {
     title: "Student Intern",
