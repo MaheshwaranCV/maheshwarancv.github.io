@@ -239,36 +239,7 @@ let footer = $(`
         <circle cx="4" cy="4" r="2"></circle>
       </svg>
     </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <a class="social-button twitter-x" href="https://twitter.com/yourprofile" target="_blank">
-    <!-- svg code for Twitter X icon -->
-    <svg class="twitter-x-icon-footer" xmlns="http://www.w3.org/2000/svg" width="35" viewBox="0 0 24 24" fill="#1DA1F2"
-      stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M20.2,3.8L12,12l8.2,8.2L20.2,20.2L12,12l-8.2,8.2L3.8,20.2L12,12L3.8,3.8L3.8,3.8L12,12L20.2,3.8z"></path>
-    </svg>
-  </a>
   
-
-
-
-
-
-
-
-
-
     <a class="social-button instagram" href="https://www.instagram.com/ma.hesh017" target="_blank" >
     <!-- svg code for instagram icon -->
       <svg class="instagram-icon-footer" x="0px" y="0px" viewBox="0 0 202.5 202.5"
