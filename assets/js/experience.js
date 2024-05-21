@@ -62,26 +62,26 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "Indian Welding Society (IWS)",
-    cardImage: "assets/images/experience-page/1.jpeg",
-    description:
-      "",
-  },
-  {
     title: "Society of Automotive Engineers (SAE), India",
     cardImage: "assets/images/experience-page/2.jpeg",
     description:
       "",
   },
   {
-    title: "Junior Red Cross (JRC) 2014-2017",
-    cardImage: "assets/images/experience-page/3.png",
+    title: "Indian Welding Society (IWS)",
+    cardImage: "assets/images/experience-page/1.jpeg",
     description:
       "",
   },
   {
     title: "Eco & Swachh Bharat Club 2020",
     cardImage: "assets/images/experience-page/4.jpeg",
+    description:
+      "",
+  },
+  {
+    title: "Junior Red Cross (JRC) 2014-2017",
+    cardImage: "assets/images/experience-page/3.png",
     description:
       "",
   },
