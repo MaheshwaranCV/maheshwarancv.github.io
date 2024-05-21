@@ -16,7 +16,7 @@ const exp = [
     cardImage: "assets/images/experience-page/shivprema.jpg",
     place: "ShivPrema Project Consultant, Chennai",
     time: "(Aug 2021 - Oct 2021)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    desp: "<li>Operated advanced 3D printing technologies like Stereolithography (SLA), mastering setup and maintenance.</li> <li>Collaborated on projects, adeptly problem-solving with a proactive team.</li> <li>Deepened expertise in materials such as PLA, ABS, and nylon, optimizing for diverse applications.</li>",
   },
   {
     title: "Steering and Suspension Engineer",
