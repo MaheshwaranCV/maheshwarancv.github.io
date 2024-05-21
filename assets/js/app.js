@@ -242,6 +242,32 @@ let footer = $(`
 
 
 
+
+
+
+
+
+
+
+
+
+
+    <a class="social-button twitter-x" href="https://x.com/maheshwarancv" target="_blank">
+  <!-- svg code for Twitter X icon -->
+  <svg class="twitter-x-icon-footer" xmlns="http://www.w3.org/2000/svg" width="35" viewBox="0 0 24 24" fill="#1DA1F2"
+    stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0022.33.36a9.06 9.06 0 01-2.88 1.1 4.52 4.52 0 00-7.72 4.12A12.87 12.87 0 011.64 1.67a4.51 4.51 0 001.39 6.03A4.37 4.37 0 01.88 7v.06a4.52 4.52 0 003.6 4.43 4.52 4.52 0 01-2.05.08 4.52 4.52 0 004.22 3.13A9.05 9.05 0 010 19.54a12.86 12.86 0 006.29 1.84c7.55 0 11.68-6.26 11.68-11.68 0-.18 0-.35-.01-.53A8.36 8.36 0 0023 3z"></path>
+  </svg>
+</a>
+
+
+
+
+
+
+
+
+
     <a class="social-button instagram" href="https://www.instagram.com/ma.hesh017" target="_blank" >
     <!-- svg code for instagram icon -->
       <svg class="instagram-icon-footer" x="0px" y="0px" viewBox="0 0 202.5 202.5"
