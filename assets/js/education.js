@@ -10,31 +10,6 @@ const moocscards = [
     moocLink: "https://www.credly.com/badges/c01e8140-7056-4ea2-bec3-ac7b2ef7191b/linked_in?t=rj3uzx",
   },
   {
-    title: "Product Lifecycle Management",
-    cardImage: "assets/images/education-page/plm.png",
-    moocLink: "https://drive.google.com/file/d/1f0caH4ZRa84jrDx2yCIl_K8goj-iGOlp/view?usp=sharing",
-  },
-  {
-    title: "Sustainable Development Goals",
-    cardImage: "assets/images/education-page/coursera.png",
-    moocLink: "https://coursera.org/share/4088c5743e2ebc04ee9c5ccdf89f02a4",
-  },
-  {
-    title: "Introduction to Self-Driving Cars",
-    cardImage: "assets/images/education-page/coursera.png",
-    moocLink: "https://coursera.org/share/c3708f34f20367956027bf85089bb458",
-  },
-  {
-    title: "SAP S/4HANA",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/certificate/UC-0cc00aef-1dd4-44bf-8721-59ef5e0ad256/",
-  },
-  {
-    title: "SAP Analytics Cloud",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/certificate/UC-2d0cc558-5188-4772-a0d5-e592381cd047/",
-  },
-  {
     title: "C Programming",
     cardImage: "assets/images/education-page/skillrack.png",
     moocLink: "https://www.skillrack.com/cert/245213/CXF",
@@ -55,6 +30,31 @@ const moocscards = [
     moocLink: "https://www.skillrack.com/cert/256955/SZP",
   },
   {
+    title: "SAP S/4HANA",
+    cardImage: "assets/images/education-page/udemy.png",
+    moocLink: "https://www.udemy.com/certificate/UC-0cc00aef-1dd4-44bf-8721-59ef5e0ad256/",
+  },
+  {
+    title: "SAP Analytics Cloud",
+    cardImage: "assets/images/education-page/udemy.png",
+    moocLink: "https://www.udemy.com/certificate/UC-2d0cc558-5188-4772-a0d5-e592381cd047/",
+  },
+  {
+    title: "Product Lifecycle Management",
+    cardImage: "assets/images/education-page/plm.png",
+    moocLink: "https://drive.google.com/file/d/1f0caH4ZRa84jrDx2yCIl_K8goj-iGOlp/view?usp=sharing",
+  },
+  {
+    title: "Sustainable Development Goals",
+    cardImage: "assets/images/education-page/coursera.png",
+    moocLink: "https://coursera.org/share/4088c5743e2ebc04ee9c5ccdf89f02a4",
+  },
+  {
+    title: "Introduction to Self-Driving Cars",
+    cardImage: "assets/images/education-page/coursera.png",
+    moocLink: "https://coursera.org/share/c3708f34f20367956027bf85089bb458",
+  },
+  {
     title: "Baja SAE India 2021 Embracing Challenges",
     cardImage: "assets/images/education-page/baja.jpeg",
     moocLink: "https://drive.google.com/file/d/1e_OLsnVRY9zaDDT4GtN4s4YgR3LY-FuK/view?usp=sharing",
@@ -68,7 +68,7 @@ const moocscards = [
   //   title: "3D Printing",
   //   cardImage: "assets/images/education-page/3dprinting.png",
   //   moocLink: "https://drive.google.com/file/d/1_23ItsPvBs_kBLNLzNoa_eF3EMMj7ye4/view?usp=sharing",
-  // }
+  // },
 ];
 
 const experience = [
