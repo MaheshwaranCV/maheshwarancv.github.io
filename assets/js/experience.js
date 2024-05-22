@@ -16,7 +16,7 @@ const exp = [
     cardImage: "assets/images/experience-page/shivprema.jpg",
     place: "ShivPrema Project Consultant, Chennai",
     time: "(Aug 2021 - Oct 2021)",
-    desp: "<li>Operated advanced 3D printing technologies like Stereolithography (SLA), mastering setup and maintenance.</li> <li>Collaborated on projects, adeptly problem-solving with a proactive team.</li> <li>Deepened expertise in materials such as PLA, ABS, and nylon, optimizing for diverse applications.</li>",
+    desp: "<li>Operated advanced 3D printing technologies like Stereolithography (SLA), mastering setup and maintenance.</li> <li>Deepened expertise in materials such as PLA, ABS, and nylon, optimizing them for diverse applications.</li> <li>Collaborated on projects, adeptly problem-solving within a proactive team.</li>",
   },
   {
     title: "Steering and Suspension Engineer",
