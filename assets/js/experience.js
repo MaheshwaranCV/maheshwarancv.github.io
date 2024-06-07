@@ -9,14 +9,14 @@ const exp = [
     cardImage: "assets/images/experience-page/KaarTech.jpg",
     place: "Kaar Technologies",
     time: "(Oct 2022 - present)",
-    desp: "<li>Successfully completed seven SAP projects, including Customer Portal, Vendor Portal, Employee Portal, Maintenance Portal, Shop Floor Portal, EHSM Portal, and Quality Portal using a tech stack comprising Angular, Flutter, and SAP UI5 for frontend development; SAP RFC Webservice, SAP PI/PO, SAP OData, SAP BTP, SAP CDS Views, Python, and Flask for middleware; and SAP Database for backend operations.</li> <li>Developed a Sales Forecasting application, enhancing predictive analytics and decision-making capabilities.</li> <li>Acquired proficiency in SAP FICO, expanding expertise in Finance and Controlling modules.</li>",
+    desp: "<li>Successfully completed seven comprehensive SAP projects, encompassing the development of Customer Portal, Vendor Portal, Employee Portal, Maintenance Portal, Shop Floor Portal, EHSM Portal, and Quality Portal. Utilized a robust tech stack for these projects, including Angular, Flutter, and SAP UI5 for frontend development; SAP RFC Webservice, SAP PI/PO, SAP OData, SAP BTP, SAP CDS Views, Python, and Flask for middleware; and SAP Database for backend operations.</li> <li>Developed a Sales Forecasting application, enhancing predictive analytics and decision-making capabilities.</li> <li>Acquired proficiency in SAP FICO, expanding expertise in Finance and Controlling modules.</li>",
   },
   {
     title: "Student Intern",
     cardImage: "assets/images/experience-page/shivprema.jpg",
     place: "ShivPrema Project Consultant, Chennai",
     time: "(Aug 2021 - Oct 2021)",
-    desp: "<li>Operated advanced 3D printing technologies like Stereolithography (SLA), mastering setup and maintenance.</li> <li>Collaborated on projects, adeptly problem-solving with a proactive team.</li> <li>Deepened expertise in materials such as PLA, ABS, and nylon, optimizing for diverse applications.</li>",
+    desp: "<li>Operated advanced 3D printing technologies like Stereolithography (SLA), mastering setup and maintenance.</li> <li>Deepened expertise in materials such as PLA, ABS, and nylon, optimizing them for diverse applications.</li> <li>Collaborated on projects, adeptly problem-solving within a proactive team.</li>",
   },
   {
     title: "Steering and Suspension Engineer",
