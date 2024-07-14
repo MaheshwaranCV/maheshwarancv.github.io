@@ -62,6 +62,12 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
+    title: "Team Everest NGO, India",
+    cardImage: "assets/images/experience-page/5.jpg",
+    description:
+      "",
+  },
+  {
     title: "Society of Automotive Engineers (SAE), India",
     cardImage: "assets/images/experience-page/2.jpeg",
     description:
